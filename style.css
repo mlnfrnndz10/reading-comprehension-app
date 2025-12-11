@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav#level-menu {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e9ecef;
+    border-bottom: 2px solid #ccc;
+}
+
+nav#level-menu button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav#level-menu button:hover {
+    background-color: #1e7e34;
+}
+
+main#content-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    border-radius: 8px;
+}
+
+.passage-text {
+    background-color: #f9f9f9;
+    border-left: 5px solid #007bff;
+    padding: 20px;
+    margin: 25px 0;
+    font-style: italic;
+    white-space: pre-wrap; 
+    border-radius: 4px;
+}
+
+h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    color: #007bff;
+}
+
+.activity {
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.question-text {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.text-input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#activity-form button {
+    padding: 12px 20px;
+    margin-right: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#activity-form button[type="button"]:first-of-type { 
+    background-color: #007bff;
+    color: white;
+}
+
+#next-button {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px 0;
+}
